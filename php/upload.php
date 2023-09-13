@@ -5,7 +5,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Verificar que se haya seleccionado una imagen válida
     if($imagen['error'] === UPLOAD_ERR_OK) {
-        $apiKey = "TU_API_KEY"; // Reemplaza esto con tu propia API key de imgbb
+        $apiKey = "e54059a615e0342f6d0062e21a0e1c87"; // Reemplaza esto con tu propia API key de imgbb
 
         // Configurar la solicitud a la API de imgbb
         $ch = curl_init();
